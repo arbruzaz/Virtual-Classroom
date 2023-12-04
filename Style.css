@@ -1,0 +1,28 @@
+.button{
+    -fx-background-color: yellow;
+    -fx-text-fill: black;
+    -fx-background-radius: 6;
+     ;
+}
+.text-field {
+    -fx-background-color: forestgreen;
+}
+.root{
+    -fx-background-color: black;
+
+
+}
+.scroll-bar{
+    -fx-background-color: aqua;
+}
+.scroll-pane{
+    -fx-background-color: brown;
+}
+
+
+.button-yellow{
+    -fx-background-color: yellow;
+    -fx-text-fill: aqua;
+    -fx-background-radius: 4;
+}
+

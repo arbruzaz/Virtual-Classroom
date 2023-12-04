@@ -1,0 +1,103 @@
+/* Label */
+.label {
+    -fx-text-fill: rgb(255, 255, 255, 1.0);
+}
+
+
+
+/* RadioButton */
+.radio-button {
+    -fx-text-fill:rgb(255, 255, 255, 1.0);
+    -fx-font-size: 16;
+    -fx-padding: 4;
+    -fx-border-color: rgb(0, 0, 0, 0.0);
+    -fx-background-color: rgb(0, 0, 0, 0.0);
+} 
+
+
+
+/* TextField */
+.text-field{
+    -fx-font-size: 16;
+    -fx-padding: 4;
+    -fx-border-color: rgb(148, 148, 148, 1.0);
+    -fx-border-width: 2;
+    -fx-border-radius: 0;
+    -fx-border: gone;
+    -fx-background-color: rgb(0, 0, 0, 0.0);
+    -fx-text-fill: rgb(255, 255, 255, 1.0);
+ }
+.text-field:hover{
+    -fx-font-size: 16;
+    -fx-padding: 4;
+    -fx-border-color: rgb(255, 255, 255, 1.0);
+    -fx-border-width: 2;
+    -fx-border-radius: 0;
+    -fx-border: gone;
+    -fx-background-color: rgb(0, 0, 0, 0.0);
+    -fx-text-fill: rgb(255, 255, 255, 1.0);
+ }
+ .text-field:focused{
+    -fx-font-size: 16;
+    -fx-padding: 4;
+    -fx-border-color: rgb(210, 136, 24, 1.0);
+    -fx-border-width: 2;
+    -fx-border-radius: 0;
+    -fx-border: gone;
+    -fx-background-color: rgb(0, 0, 0, 0.0);
+    -fx-text-fill: rgb(255, 255, 255, 1.0);
+ }
+
+
+
+
+/* Button */
+ .button {
+    -fx-font-weight: bold;
+    -fx-font-size: 18;
+    -fx-padding: 4 12 4 12;
+    -fx-background-radius: 0;
+    -fx-background-color: rgb(0, 0, 0, 0.0);
+    -fx-border-radius: 0;
+    -fx-border-color: rgb(210, 136, 24, 1.0);
+    -fx-border-width: 2;
+    -fx-text-fill: rgb(210, 136, 24, 1.0);
+}
+.button:hover {
+    -fx-font-weight: bold;
+    -fx-font-size: 18;
+    -fx-padding: 4 12 4 12;
+    -fx-background-radius: 0;
+    -fx-background-color: rgb(0, 0, 0, 0.0);
+    -fx-border-radius: 0;
+    -fx-border-color: rgb(255, 188, 86, 1.0);
+    -fx-border-width: 2;
+    -fx-text-fill: rgb(255, 188, 86, 1.0);
+}
+
+/* Scroll Pane */
+.scroll-pane {
+    -fx-background-color: rgb(54, 57, 63, 1.0);
+}
+.scroll-bar:horizontal, .scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
+.increment-button, .decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+    -fx-padding:0;
+    -fx-opacity: 0;
+ 
+}
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color: rgb(45, 47, 51, 1.0);
+    -fx-border-color: transparent;
+    -fx-background-radius: 5em;
+}
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: rgb(32, 34, 37, 1.0);
+    -fx-background-radius: 5em;
+}
